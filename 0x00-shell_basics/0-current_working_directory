@@ -1,2 +1,2 @@
 #!/bin/bash
-realpath
+Chmod 0+x 0-current_working_directory
