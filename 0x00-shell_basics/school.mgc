@@ -3,4 +3,3 @@
 !:mime School
 file -C -m school.mgc
 chmod u+x school.mgc
-
