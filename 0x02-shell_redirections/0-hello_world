@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo "Hello, World"
+=======
+cat 0-hello_world | lpr
+>>>>>>> 3cc19519328bff0167901f8027d40134deecbf90
