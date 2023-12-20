@@ -1,4 +1,5 @@
-# 0x14-mysql
+MYSQL
+0. Intstall MySQ# 0x14-mysql
 
 ![mysql](https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg)
 
@@ -216,4 +217,4 @@ mysql> CHANGE MASTER TO
 -- Then you start slave
 mysql> START SLAVE;
 ```
-__That's it you've configured replication on mysql, do reach out for any further assistance__
+__That's it you've configured replication on mysql, do reach out for any further assistance__L
