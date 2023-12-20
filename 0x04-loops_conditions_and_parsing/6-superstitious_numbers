@@ -1,18 +1,24 @@
 #!/usr/bin/env bash
-# Displays numbers from 1 to 20 in addition to:
-#   "bad luck from China" for the 4th iteration
-#   "bad luck from Japan" for the 9th iteration
-#   "bad luck from Italy" for the 17th loop iteration
+#A bash script that prints Best School with conditions
 
-count=1
-
-while [ $count -le 20 ]
+var=1
+while [[ $var -le 20 ]]
 do
-  echo "$count"
-  case $count in
-    "4") echo "bad luck from China";;
-    "9") echo "bad luck from Japan";;
-    "17") echo "bad luck from Italy";;
-  esac
-  (( count++ ))
+    case $var in
+	    4)
+        echo "$var"
+        echo "bad luck from China"
+	;;
+            9)
+        echo "$var"
+        echo "bad luck from Japan"
+	;;
+            17)
+        echo "$var"
+        echo "bad luck from Italy"
+	;;
+	*)
+        echo "$var"
+    esac
+    (( var++ ))
 done
